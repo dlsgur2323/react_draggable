@@ -1,0 +1,43 @@
+body {
+    min-width: 1080px;
+}
+.card-board {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+.list-body{
+    flex: auto;
+}
+.card-list{
+    display: flex;
+    flex: auto;
+    height: fit-content;
+    background-color: lightgray;
+    flex-direction: column;
+    margin: 0px 10px 0px 10px;
+    padding : 10px;
+    flex-basis: 0px;
+}
+.card-control{
+    border: 2px solid lightgray;
+    padding : 10px;
+    margin: 0px 10px 0px 10px;
+    flex: auto;
+}
+.card{
+    padding : 10px;
+    background-color: white;
+    box-shadow: 0px 0px 4px -1px grey;
+    border-radius: 3px;
+    margin-bottom : 5px;
+}
+.card-margin{
+    height : 5px;
+}
+#card-drag-direction{
+    background-color: grey;
+}
+.mb0{
+    margin-bottom: 0px;
+}
